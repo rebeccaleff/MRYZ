@@ -3,13 +3,13 @@ var app = express();
 
 app.get('/', function(req, res) {
   res.send({
-    "Output": "Testing this get request"
+    "Output": "Testing this get request!"
   });
 });
 
 app.post('/', function(req, res) {
   res.send({
-    "Output": "Testing this post request"
+    "Output": "Testing this post request!"
   });
 });
 
